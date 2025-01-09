@@ -1,0 +1,5 @@
+chars: 346
+lines: 11
+wspace: 59
+digits: 0
+letters: 279
