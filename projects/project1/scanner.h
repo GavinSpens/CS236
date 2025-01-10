@@ -264,5 +264,7 @@ public:
                 return Token(UNDEFINED, value, line);
             }
         }
+        input = input.substr(2);
+        return Token(COMMENT, value, line);
     }
 };
