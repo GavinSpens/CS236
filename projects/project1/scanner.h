@@ -188,6 +188,7 @@ public:
             input = input.substr(1);
             if (input.empty())
             {
+                value = "'" + value;
                 return Token(UNDEFINED, value, line);
             }
         }
@@ -205,6 +206,7 @@ public:
             input = input.substr(1);
             if (input.empty())
             {
+                value = "\"" + value;
                 return Token(UNDEFINED, value, line);
             }
         }
@@ -222,6 +224,7 @@ public:
             input = input.substr(1);
             if (input.empty())
             {
+                value = "#" + value;
                 return Token(UNDEFINED, value, line);
             }
         }
@@ -261,6 +264,7 @@ public:
             input = input.substr(1);
             if (input.empty())
             {
+                value = "#|" + value;
                 return Token(UNDEFINED, value, line);
             }
         }
