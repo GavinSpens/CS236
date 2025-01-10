@@ -1,5 +1,6 @@
 (ID, "nothing2seehere", 1)
 (SCHEMES, "Schemes", 2)
 (STRING, "", 3)
-(UNDEFINED, "'\noops", 4)
+(UNDEFINED, "'
+oops", 4)
 Total Tokens = 4
