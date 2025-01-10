@@ -35,7 +35,7 @@ int count_chars(int argc, char *argv[], string input)
 
     cout << "chars: " << input.length() << endl;
     cout << "lines: " << lines << endl;
-    cout << "whitespace: " << whitespace << endl;
+    cout << "wspace: " << whitespace << endl;
     cout << "digits: " << digits << endl;
     cout << "letters: " << letters << endl;
 
