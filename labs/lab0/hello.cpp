@@ -25,6 +25,7 @@ int count_chars(int argc, char *argv[], string input)
         else if (c == '\n')
         {
             lines++;
+            whitespace++;
         }
         else if (isspace(c))
         {
