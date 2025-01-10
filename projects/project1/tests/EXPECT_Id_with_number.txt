@@ -1,0 +1,4 @@
+(ID, "nothing2seehere", 1)
+(SCHEMES, "Schemes", 2)
+(QUOTE, "", 3)
+(UNDEFINED, "'", 4)

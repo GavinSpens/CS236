@@ -19,6 +19,9 @@ enum TokenType
     ID,
     STRING,
     COMMENT,
+    MULTIPLY,
+    ADD,
+    END,
     UNDEFINED
 };
 
@@ -31,6 +34,11 @@ private:
 
 public:
     Token(TokenType type, string value, int line) : type(type), value(value), line(line) {}
+
+    TokenType getType() const
+    {
+        return type;
+    }
 
     string toString() const
     {
@@ -71,6 +79,12 @@ public:
             return "STRING";
         case COMMENT:
             return "COMMENT";
+        case MULTIPLY:
+            return "MULTIPLY";
+        case ADD:
+            return "ADD";
+        case END:
+            return "END";
         default:
             return "UNDEFINED";
         }
